@@ -1,4 +1,4 @@
-# sissi_cca_digital-electronics_2020
+# Sissi-Xu_CCA_Digital-Electronics_2020
 Digital Electronics HW&amp;Exercise
 
 

@@ -1,0 +1,32 @@
+int greenLEDPin = 8; // Pin green led connected to
+int yellowLEDPin = 9;
+int redLEDPin = 10;
+
+int lightSensorPin = A0; //Pin Light Sensor is connected to
+int analogValue = 0;
+
+void setup() {
+  // Set pins to outputs
+  pinMode (greenLEDPin,OUTPUT);
+  pinMode (yellowLEDPin,OUTPUT);
+  pinMode (redLEDPin,OUTPUT);
+}
+
+void loop() {
+  // 
+  analogValue = analogRead(lightSensorPin);
+  if(analogValue < 50) {
+    digitalWrite (redLEDPin,HIGH);
+  }
+  else if (analogValue>50 && analogValue<= 100){
+    digitalWrite (yellowLEDPin,HIGH);
+  }
+  else {
+    digitalWrite (greenLEDPin,HIGH);
+  }
+  delay(200);
+  digitalWrite(greenLEDPin,LOW);
+  digitalWrite(yellowLEDPin,LOW);
+  digitalWrite(redLEDPin,LOW);
+  
+}

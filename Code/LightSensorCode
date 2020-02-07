@@ -7,14 +7,20 @@ int analogValue = 0;
 
 void setup() {
   // Set pins to outputs
+  Serial.begin(9600);
+  
   pinMode (greenLEDPin,OUTPUT);
   pinMode (yellowLEDPin,OUTPUT);
   pinMode (redLEDPin,OUTPUT);
 }
 
 void loop() {
-  // 
+  // read number by serial monitor
+  Serial.println(analogValue);
+  
   analogValue = analogRead(lightSensorPin);
+
+ // if value <50 red light up
   if(analogValue < 50) {
     digitalWrite (redLEDPin,HIGH);
   }

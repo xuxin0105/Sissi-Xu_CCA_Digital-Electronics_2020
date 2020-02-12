@@ -31,3 +31,7 @@ Digital Electronics HW&amp;Exercise
   - Different colors of led represent different colors of candy.
   - Digital Counter
    
+- Research on Sensors:
+  - The TCS3200 color sensor: https://howtomechatronics.com/tutorials/arduino/arduino-color-sensing-tutorial-tcs230-tcs3200-color-sensor/
+  - Touch Sensor: https://www.adafruit.com/product/1375
+  -

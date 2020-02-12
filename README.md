@@ -12,4 +12,12 @@ Digital Electronics HW&amp;Exercise
 ![LightandSensor](/images/LightandSensor.png)
 
 ## Week 3
-- Not yet there
+- My concept is to design a 
+![Mentos Machine](/images/Mentos.JPG)
+- "Must have"
+  - The TCS3200 color sensor. (Sense and recognize the color of the candy)
+  - Able to separate colored candies into different container.
+- "Nice to have"
+  - Different colors of led represent different colors of candy.
+  - 
+   

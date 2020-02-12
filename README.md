@@ -19,5 +19,5 @@ Digital Electronics HW&amp;Exercise
   - Able to separate colored candies into different container.
 - "Nice to have"
   - Different colors of led represent different colors of candy.
-  - 
+  - Digital Counter
    

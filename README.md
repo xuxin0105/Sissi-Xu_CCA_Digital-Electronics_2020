@@ -12,8 +12,11 @@ Digital Electronics HW&amp;Exercise
 ![LightandSensor](/images/LightandSensor.png)
 
 ## Week 3
-- My concept is to design a 
+- My design concept is based on the story that happened around me. I bet some times in your life want to have to eat a certain flavor of candy, but because mentos multi-flavor is a tube, you can not choose the order in which flavor of the candy appears, so what should you do when you only want grape flavor candy.
 ![Mentos Machine](/images/Mentos.JPG)
+- Electric M
+
+- Code: My code will transmit the color recognized by the sensor to the motor so that it can change the direction correctly and accurately to drop the candy into the correct container.
 
 - First Step: Sketch out the machine and use cardboard to make a prototype.
 - Second Step: Refine the Prototype using better materials.

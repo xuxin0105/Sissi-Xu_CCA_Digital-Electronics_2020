@@ -14,9 +14,16 @@ Digital Electronics HW&amp;Exercise
 ## Week 3
 - My concept is to design a 
 ![Mentos Machine](/images/Mentos.JPG)
+
+- First Step: Sketch out the machine and use cardboard to make a prototype.
+- Second Step: Refine the Prototype using better materials.
+- Final Step: Refine again to be well accomplished.
+- Add on: "Nice to have"
+
 - "Must have"
   - The TCS3200 color sensor. (Sense and recognize the color of the candy)
   - Able to separate colored candies into different container.
+  
 - "Nice to have"
   - Different colors of led represent different colors of candy.
   - Digital Counter

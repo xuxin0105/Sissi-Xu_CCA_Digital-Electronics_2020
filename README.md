@@ -35,3 +35,4 @@ Digital Electronics HW&amp;Exercise
   - The TCS3200 color sensor: https://howtomechatronics.com/tutorials/arduino/arduino-color-sensing-tutorial-tcs230-tcs3200-color-sensor/
   - Touch Sensor: https://www.adafruit.com/product/1375
   - 1x4 Keypad: https://www.adafruit.com/product/1332
+  - These three sensors I had most interesting by its use, I will try to include in my midterm project. The color sensor sensed the color and separated them, and then transmitted the information into the computer and output to use to control any product on their motion. The touch sensor can be used in a touchpad to turn on and off the switch for a device or powerful a machine. 1*4 ket pad each button can use as a single switch to program and control different outputs.

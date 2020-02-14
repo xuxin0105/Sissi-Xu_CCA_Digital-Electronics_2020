@@ -35,6 +35,7 @@ Digital Electronics HW&amp;Exercise
 
 ## Week 1
 - Processing Sketch
+
 ![ProcessingSketch](/images/ProcessingSketch.png)
 
 

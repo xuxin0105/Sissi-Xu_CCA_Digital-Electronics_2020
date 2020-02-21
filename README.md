@@ -1,6 +1,12 @@
 # Sissi-Xu_CCA_Digital-Electronics_2020
 Digital Electronics HW&amp;Exercise
 
+## Week 4
+- Step one: This week, I learned how to connect Arduino with the LCD and display the words I wanted on the LCD screen.
+- Next Step: Learn the color sensor and able to recognized its RGB values and then printed on the LCD screen.
+![LCD](/images/Hellosissi.GIF)
+![LCD](/images/LCCSceendraw.JPG)
+
 ## Week 3
 - My design concept is based on the story that happened around me. I bet some times in your life want to have to eat a certain flavor of candy, but because mentos multi-flavor is a tube, you can not choose the order in which flavor of the candy appears, so what should you do when you only want grape flavor candy.
 ![Mentos Machine](/images/Mentos.JPG)

@@ -1,6 +1,10 @@
 # Sissi-Xu_CCA_Digital-Electronics_2020
 Digital Electronics HW&amp;Exercise
 
+## Week 5
+This week I tried a new color sensor TCS34725 to identify the color of RGB, and my goal is to display the color on the led. But I face some connection problem, the light of my RGB did not light up. After several attempts, I still don't know where the issue is.
+![LCD](/images/LCCSceendraw.JPG)
+
 ## Week 4
 - Step one: This week, I learned how to connect Arduino with the LCD and display the words I wanted on the LCD screen.
 - Next Step: Learn the color sensor and able to recognized its RGB values and then printed on the LCD screen.

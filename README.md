@@ -1,24 +1,24 @@
 # Sissi-Xu_CCA_Digital-Electronics_2020
 Digital Electronics HW&amp;Exercise
 
-## Week 6
+# Week 6
 - This week I have combined the two parts of the code into one file. My goal is for this week is to let the LCD screen to display candy flavors when sensing different colors of each piece of the candy. One of the problems I had was that every time I got the sensor data, the LCD would flash, and I couldn't see any words on the screen.
 ![TCS](/images/lcdwithsensor.gif)
 
-## Week 5
+# Week 5
 - This week I tried a new color sensor TCS34725 to identify the color of RGB, and my goal is to display the color on the led. But I face some connection problem, the light of my RGB did not light up. After several attempts, I still don't know where the issue is.
 ![TCS](/images/TCS.JPG)
 
 - In class, I found the problem by changing the type of led, and finally successfully transferred the color to RGB Led.
 ![TCS](/images/TCSsensor.GIF)
 
-## Week 4
+# Week 4
 - Step one: This week, I learned how to connect Arduino with the LCD and display the words I wanted on the LCD screen.
 - Next Step: Learn the color sensor and able to recognized its RGB values and then printed on the LCD screen.
 ![LCD](/images/Hellosissi.GIF)
 ![LCD](/images/LCCSceendraw.JPG)
 
-## Week 3
+# Week 3
 - My design concept is based on the story that happened around me. I bet some times in your life want to have to eat a certain flavor of candy, but because mentos multi-flavor is a tube, you can not choose the order in which flavor of the candy appears, so what should you do when you only want grape flavor candy.
 ![Mentos Machine](/images/Mentos.JPG)
 - Electric M
@@ -44,13 +44,13 @@ Digital Electronics HW&amp;Exercise
   - 1x4 Keypad: https://www.adafruit.com/product/1332
   - These three sensors I had most interesting by its use, I will try to include in my midterm project. The color sensor sensed the color and separated them, and then transmitted the information into the computer and output to use to control any product on their motion. The touch sensor can be used in a touchpad to turn on and off the switch for a device or powerful a machine. 1*4 ket pad each button can use as a single switch to program and control different outputs.
   
-## Week 2
+# Week 2
 - I found this video, which I feel it's interesting. It is An Arduino-powered Egg Printer that made from the ELEKS team. This machine can print the digital graphic on the surface of the egg, and it controls the direction of the pen to draw the design figure along the curve of the egg smoothly. You end up with a specially designed egg. https://www.youtube.com/watch?v=B9fdly5wphA
 - Light & Sensor Porject:https://youtu.be/jjz_whcOGKY 
        
     ![LightandSensor](/images/Light.GIF)
 
-## Week 1
+# Week 1
 - Processing Sketch
 
 ![ProcessingSketch](/images/ProcessingSketch.png)

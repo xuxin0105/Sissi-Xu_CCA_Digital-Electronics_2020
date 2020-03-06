@@ -3,7 +3,7 @@ Digital Electronics HW&amp;Exercise
 
 ## Week 6
 - This week I have combined the two parts of the code into one file. My goal is for this week is to let the LCD screen to display candy flavors when sensing different colors of each piece of the candy. One of the problems I had was that every time I got the sensor data, the LCD would flash, and I couldn't see any words on the screen.
-![TCS](/images/lcdwithsensor.GIF)
+![TCS](/images/lcdwithsensor.gif)
 
 ## Week 5
 - This week I tried a new color sensor TCS34725 to identify the color of RGB, and my goal is to display the color on the led. But I face some connection problem, the light of my RGB did not light up. After several attempts, I still don't know where the issue is.

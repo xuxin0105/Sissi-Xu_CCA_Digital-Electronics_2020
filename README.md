@@ -1,5 +1,12 @@
 # Sissi-Xu_CCA_Digital-Electronics_2020
 Digital Electronics HW&amp;Exercise
+# Week 7 (Midterm)
+- My Project is to design a Mento's flavor separator. I use a color sensor to sense the color of the Mentos and reflect the same color on the RGB LED, and then print the flavor to the LCD screen. The Potentiometer will control the light of the LCD. Through this project, I learned how to use the hardware I needed and completed most of the code writing independently.  
+
+![TCS](/images/Picmachine2.jpeg)
+![TCS](/images/Orange.GIF)
+![TCS](/images/Lemon.GIF)
+![TCS](/images/Strawberry.GIF)
 
 # Week 6
 - This week I have combined the two parts of the code into one file. My goal is for this week is to let the LCD screen to display candy flavors when sensing different colors of each piece of the candy. One of the problems I had was that every time I got the sensor data, the LCD would flash, and I couldn't see any words on the screen.

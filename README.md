@@ -17,7 +17,7 @@ Digital Electronics HW&amp;Exercise
   - Color Sensor TCS34725 (Sense the color and get its RGB value)
   - The LCD Screen (Print each candy flavor to the screen)
   
-- Video Link for project demo :
+- Video Link for project demo :https://youtu.be/MQCG0-THZQE
 
 # Week 6
 -  This week I have combined the two parts of the code into one file. My goal is for this week is to let the LCD screen to display candy flavors when sensing different colors of each piece of the candy. One of the problems I had was that every time I got the sensor data, the LCD would flash, and I couldn't see any words on the screen.

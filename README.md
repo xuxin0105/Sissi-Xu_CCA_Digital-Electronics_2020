@@ -24,9 +24,9 @@ Digital Electronics HW&amp;Exercise
 - Able to switch the melody. 
 - Connect to computer processing to send images.
 
-- Week One: Get the IR Remote & Receiver work, and be able to control the LED light on the Breadboard.
-- Week Two: Able to Print emoji on an 8x8 LED Matrix and program to control by the remote. 
-- Week Three: Connect the LCD screen to the project and send the message control by the remote.
+#### Week One: Get the IR Remote & Receiver work, and be able to control the LED light on the Breadboard.
+#### Week Two: Able to Print emoji on an 8x8 LED Matrix and program to control by the remote. 
+#### Week Three: Connect the LCD screen to the project and send the message control by the remote.
 
 #### Sources: 
 - IR Remote Tutorial:https://www.youtube.com/watch?v=3jeSfsnQOWk&t=1s

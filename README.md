@@ -1,5 +1,35 @@
 # Sissi-Xu_CCA_Digital-Electronics_2020
 Digital Electronics HW&amp;Exercise
+
+# Week 12 (Final Project Proposal)
+### Final Project Proposal
+#### Remote Communicator (Hello from the other side):
+- During this final project, I'd like to learn about how to use the IR Remote & Receiver. Because of the coronavirus, we were told to keep in distance with each other. For long-distance communication, I'd like to use the remote to play my roommate a particular melody that can make her day. And also, send messages (text/ voice/ or play a song) to my roommate living next to me (such as "Hi, Zoe ˆ-ˆ" ). We can communicate with 6 feet distance.This device can also be used outside for communication because we will be covered with the mask so we cannot see each other's face so we will need a device that can print my emotion or mood on the screen (8*8 LED Matrix)
+
+![TCS](/images/Picmachine2.jpeg)
+
+#### How it works: 
+- When I push "1" on the remote, the first LED will light up to tell my roommate we will be communicated on Channel 1. Each channel will be different messages such as text message ("Hello Zoe!" "How's your day?"), When I push "2" on the remote, the second LED will light up to tell my roommate we will be communicated in Channel 2 which allow me to send her an emoji and she can use the remote to replay.
+
+#### Must have:
+- IR Remote control with the led light
+- 8x8 LED Matrix (Print emoji)
+- Message sent via the LCD Screen.
+
+
+#### Nice to have:
+- Speaker to play the music or melody.
+- Able to switch the melody. 
+- Connect to computer processing to send images.
+
+- Week One: Get the IR Remote & Receiver work, and be able to control the LED light on the Breadboard.
+- Week Two: Able to Print emoji on an 8x8 LED Matrix and program to control by the remote. 
+- Week Three: Connect the LCD screen to the project and send the message control by the remote.
+
+#### Sources: 
+- IR Remote Tutorial:https://www.youtube.com/watch?v=3jeSfsnQOWk&t=1s
+- 8x8 LED Matrix:https://www.hackster.io/SAnwandter1/programming-8x8-led-matrix-23475a
+
 # Week 7 (Midterm)
 -  My Project is to design a Mento's flavor separator. I use a color sensor to sense the color of the Mentos and reflect the same color on the RGB LED, and then print the flavor to the LCD screen. The Potentiometer will control the light of the LCD. Through this project, I learned how to use the hardware I needed and completed most of the code writing independently.  
 

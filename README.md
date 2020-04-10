@@ -6,10 +6,12 @@ Digital Electronics HW&amp;Exercise
 #### Remote Communicator (Hello from the other side):
 - During this final project, I'd like to learn about how to use the IR Remote & Receiver. Because of the coronavirus, we were told to keep in distance with each other. For long-distance communication, I'd like to use the remote to play my roommate a particular melody that can make her day. And also, send messages (text/ voice/ or play a song) to my roommate living next to me (such as "Hi, Zoe ˆ-ˆ" ). We can communicate with 6 feet distance.This device can also be used outside for communication because we will be covered with the mask so we cannot see each other's face so we will need a device that can print my emotion or mood on the screen (8*8 LED Matrix)
 
-![TCS](/images/Picmachine2.jpeg)
+![TCS](/images/Communicator.JPG)
 
 #### How it works: 
 - When I push "1" on the remote, the first LED will light up to tell my roommate we will be communicated on Channel 1. Each channel will be different messages such as text message ("Hello Zoe!" "How's your day?"), When I push "2" on the remote, the second LED will light up to tell my roommate we will be communicated in Channel 2 which allow me to send her an emoji and she can use the remote to replay.
+
+![TCS](/images/flow.JPG)
 
 #### Must have:
 - IR Remote control with the led light

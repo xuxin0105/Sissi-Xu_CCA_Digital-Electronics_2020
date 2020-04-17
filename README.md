@@ -1,6 +1,10 @@
 # Sissi-Xu_CCA_Digital-Electronics_2020
 Digital Electronics HW&amp;Exercise
+# Week 13 (Final Project Part 1)
+- This week, I searching online on how to use and collect basic data from IR remote and use it to control what you want to turn on and off. By watching the online tutorial, I learned how to read the receiver's data through the serial monitor and use the data to turn on and off of the led light from a distance. My next step is to learn how to use the 8*8 LED matrix with the Arduino and program the first emoji (A Happy face ˆ_ˆ).
 
+#### Resources: 
+- IR Receiver Electronic Brick : http://arduinoinfo.mywikis.net/wiki/IR-RemoteControl
 # Week 12 (Final Project Proposal)
 ### Final Project Proposal
 #### Remote Communicator (Hello from the other side):

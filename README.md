@@ -7,6 +7,9 @@ Digital Electronics HW&amp;Exercise
 
 #### Breadboard:
 
+#### Code:
+- Locate in Folder
+
 #### HOW IT WORKS:
 
 #### Resources: 

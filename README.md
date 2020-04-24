@@ -1,14 +1,14 @@
 # Sissi-Xu_CCA_Digital-Electronics_2020
 Digital Electronics HW&amp;Exercise
 # Week 14 (Final Project Part 2)
--This week through online research I learned how to write code in the ardurino to display images on the 8*8 LED Matrix. After reading some articles, I found a software called "Pixel To Matrix," which allows me to design the image I want on the computer and get the corresponding code that I can input to the Arduino. I drew three different expressions: smile😊, neutral😔,and frown😫 on the computer. I asked them to be displayed on my matrix in the loop. My next step is to connect and control the three expressions through the IR remote.
+- This week through online research I learned how to write code in the ardurino to display images on the 8*8 LED Matrix. After reading some articles, I found a software called "Pixel To Matrix," which allows me to design the image I want on the computer and get the corresponding code that I can input to the Arduino. I drew three different expressions: smile😊, neutral😔,and frown😫 on the computer. I asked them to be displayed on my matrix in the loop. My next step is to connect and control the three expressions through the IR remote.
 
 #### Schematic:
 
 #### Breadboard:
 
 #### Code:
-- Locate in Folder
+- Locate in "FinalProject-Part 2" Folder
 
 #### HOW IT WORKS:
 
@@ -30,6 +30,9 @@ Digital Electronics HW&amp;Exercise
 #### HOW IT WORKS:
 
 ![TCS](/images/IRcontrol.GIF)
+
+#### Code:
+- Locate in "FinalProject-Part 2" Folder
 
 #### Resources: 
 - IR Receiver Electronic Brick : http://arduinoinfo.mywikis.net/wiki/IR-RemoteControl

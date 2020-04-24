@@ -32,7 +32,7 @@ Digital Electronics HW&amp;Exercise
 ![TCS](/images/IRcontrol.GIF)
 
 #### Code:
-- Locate in "FinalProject-Part 2" Folder
+- Locate in "FinalProject-Part 1" Folder
 
 #### Resources: 
 - IR Receiver Electronic Brick : http://arduinoinfo.mywikis.net/wiki/IR-RemoteControl

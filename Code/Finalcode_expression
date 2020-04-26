@@ -1,0 +1,161 @@
+#include <LedControl.h> //include the Matrix library
+#include <IRremote.h> //include the IRremote library
+
+#define Button_start 0xFFA25D //start button
+//#define Button_1 0xFF30CF // define button 1
+
+#define Button_off 0xE318261B//off button
+
+#define Button_heart 0x97483BFB//EQ button 
+
+//#define Button_2 0xFF18E7 // define button 2
+//#define Button_3 0xFF7A85 // define button 3
+
+//------------different number
+
+//#define Button_0 0xC101E57B
+
+#define Button_1 0x9716BE3F // define button 1
+#define Button_2 0x3D9AE3F7 // define button 2
+#define Button_3 0x6182021B // define button 3
+//8C22657B
+
+
+//Define LEDS 
+#define greenpin 9   
+#define yellowpin 8   
+#define redpin 7   
+
+//IR reciever pin number
+int receiver = 13; //initialize pin 13 as recevier pin.
+uint32_t Previous; 
+IRrecv irrecv(receiver); //create a new instance of receiver
+decode_results results;
+
+//Matrix pinnumber
+const int DIN = 12;
+const int CS =  11;
+const int CLK = 10;
+
+byte smile[8]=   {0x3C,0x42,0xA5,0x81,0xA5,0x99,0x42,0x3C}; // smile image
+byte neutral[8]= {0x3C,0x42,0xA5,0x81,0xBD,0x81,0x42,0x3C}; // neutral image
+byte frown[8]=   {0x3C,0x42,0xA5,0x81,0x99,0xA5,0x42,0x3C}; // frown image
+byte start[8]=   {0x08,0x2A,0x49,0x49,0x49,0x41,0x22,0x1C}; // start image
+byte heart[8]=   {0x00,0x66,0xFF,0xFF,0x7E,0x3C,0x18,0x00}; // Heart image
+
+LedControl lc=LedControl(DIN,CLK,CS,0); //print image
+
+void setup() {
+ Serial.begin(9600);
+ irrecv.enableIRIn(); //start the receiver
+ pinMode(greenpin, OUTPUT); //LEDS turn output
+ pinMode(yellowpin, OUTPUT);
+ pinMode(redpin, OUTPUT);
+
+ lc.shutdown(0,false);       //The MAX72XX is in power-saving mode on startup
+ lc.setIntensity(0,5);      // Set the brightness to 1/3 value
+ lc.clearDisplay(0);         // and clear the display
+
+}
+void loop() {
+ if (irrecv.decode(&results)) { //if we have received an IR signal
+  if (results.value==0xFFFFFFFF) { 
+      results.value=Previous;
+      }
+
+    switch(results.value) {
+                 
+//----------------button start------------------------------
+                 
+           case Button_start : // press power button 
+           digitalWrite(greenpin, LOW) ;  
+           digitalWrite(yellowpin, LOW) ;
+           digitalWrite(redpin, LOW);
+           
+           printByte(start);
+     
+           delay(1000); 
+
+           break;
+           
+//----------------button 1------------------------------
+                     
+           case Button_1 : // press button smile
+           digitalWrite(greenpin, HIGH) ;  
+           digitalWrite(yellowpin, LOW) ;
+           digitalWrite(redpin, LOW); 
+
+           printByte(smile);
+     
+           delay(1000); 
+    
+           break;
+           
+//----------------button 2------------------------------
+           
+           case Button_2 : // press button 2 neutral
+           digitalWrite(greenpin, LOW) ;
+           digitalWrite(yellowpin, HIGH) ;
+           digitalWrite(redpin, LOW); 
+
+           printByte(neutral);
+    
+           delay(1000);
+           
+//----------------button 3------------------------------
+
+           break;
+           case Button_3 : // press button 3 frown
+           digitalWrite(greenpin, LOW) ;
+           digitalWrite(yellowpin, LOW) ;
+           digitalWrite(redpin, HIGH); 
+          
+           printByte(frown);    
+
+           delay(1000);
+
+           break;
+           
+//----------------heart------------------------------
+
+           case Button_heart : // press heart button 
+           digitalWrite(greenpin, HIGH) ;  
+           digitalWrite(yellowpin, HIGH) ;
+           digitalWrite(redpin, HIGH);
+           
+           printByte(heart);
+     
+           delay(1000); 
+
+           break;
+
+           
+//----------------off------------------------------
+
+           case Button_off : // press button off
+           digitalWrite(greenpin, LOW) ;
+           digitalWrite(yellowpin, LOW) ;
+           digitalWrite(redpin, LOW); 
+          
+           lc.clearDisplay(0);   
+
+           delay(1000);
+
+           break;
+
+ } 
+ 
+ Serial.println (results.value, HEX); //display HEX results 
+ irrecv.resume(); //next value
+ }
+ Previous=results.value;
+ }
+
+ void printByte(byte character [])
+{
+  int i = 0;
+  for(i=0;i<8;i++)
+  {
+    lc.setRow(0,i,character[i]);
+  }
+}

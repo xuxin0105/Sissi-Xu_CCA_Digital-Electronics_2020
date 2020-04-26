@@ -1,70 +1,98 @@
 # Sissi-Xu_CCA_Digital-Electronics_2020
 Digital Electronics HW&amp;Exercise
+
+# Week 15 (Final Project Presentation)
+-----------------------------------------------------
+## "Hello ～ From The Other Side!"
+- In the current situation, we are staying safe to keep a distance from other people, and even roommates are no exception. Without any internet, do you feel lonely living without communication day by day? People usually express their emotions through facial expressions, but if we don't see each other, what should we do? My design concepts have considered today’s special circumstances of COVID-19 and aim to help people communicate under quarantine through images. The Remote control communicator ("Hello～From The Other Side")  allows the user to express emotion across the other side of the room. 
+
+![TCS](/image/Cover_heart.JPG)
+
+###  Schematic:
+
+![TCS](/image/Schematic_Final.png)
+
+### Breadboard:
+
+![TCS](/image/Breadboard_Final.png)
+
+### Code:
+-  Locate in "FinalProject-Final" Folder
+
+### HOW IT WORKS:
+- The user in the room needs to use the remote control to press the corresponding expression button on the remote. At the same time, the LED matrix in their roommates' room will receive an image the user sends. It allows their roommates across the room will see the user's current mood without contact; they will immediately understand the user's feelings and reply by doing the same thing.
+
+- Video Link: https://vimeo.com/user109537751/review/411977547/a170424925
+
+![TCS](/image/Remote_emoji.GIF)
+
 # Week 14 (Final Project Part 2)
 - This week through online research I learned how to write code in the ardurino to display images on the 8*8 LED Matrix. After reading some articles, I found a software called "Pixel To Matrix," which allows me to design the image I want on the computer and get the corresponding code that I can input to the Arduino. I drew three different expressions: smile😊, neutral😔,and frown😫 on the computer. I asked them to be displayed on my matrix in the loop. My next step is to connect and control the three expressions through the IR remote.
 
-#### Software:
+### Software:
 
 ![TCS](/images/PixelToMatrix.PNG)
 
-#### Schematic:
+### Schematic:
 
 ![TCS](/images/Schematic_2.png)
 
-#### Breadboard:
+### Breadboard:
 
 ![TCS](/images/Breadboard_2.png)
 
-#### Code:
+### Code:
 - Locate in "FinalProject-Part 2" Folder
 
-#### HOW IT WORKS:
+### HOW IT WORKS:
 
 ![TCS](/images/Matrix.GIF)
 
-#### Resources: 
+### Resources: 
 - 8*8 LED Matrix Tutorial: https://www.youtube.com/watch?v=vI3ipE2Wj8Y
 
 
 # Week 13 (Final Project Part 1)
 - This week, I searching online on how to use and collect basic data from IR remote and use it to control what you want to turn on and off. By watching the online tutorial, I learned how to read the receiver's data through the serial monitor and use the data to turn on and off of the led light from a distance. My next step is to learn how to use the 8*8 LED matrix with the Arduino and program the first emoji (A Happy face ˆ_ˆ).
 
-#### Schematic:
+### Schematic:
 
 ![TCS](/images/Fritzing2.png)
 
-#### Breadboard:
+### Breadboard:
 
 ![TCS](/images/Fritzing1.png)
 
-#### HOW IT WORKS:
+### HOW IT WORKS:
 
 ![TCS](/images/IRcontrol.GIF)
 
-#### Code:
+### Code:
 - Locate in "FinalProject-Part 1" Folder
 
-#### Resources: 
+### Resources: 
 - IR Receiver Electronic Brick : http://arduinoinfo.mywikis.net/wiki/IR-RemoteControl
+
 # Week 12 (Final Project Proposal)
 ### Final Project Proposal
-#### Remote Communicator (Hello from the other side):
+-----------------------------------------------------
+### Remote Communicator (Hello from the other side):
 - During this final project, I'd like to learn about how to use the IR Remote & Receiver. Because of the coronavirus, we were told to keep in distance with each other. For long-distance communication, I'd like to use the remote to play my roommate a particular melody that can make her day. And also, send messages (text/ voice/ or play a song) to my roommate living next to me (such as "Hi, Zoe ˆ-ˆ" ). We can communicate with 6 feet distance.This device can also be used outside for communication because we will be covered with the mask so we cannot see each other's face so we will need a device that can print my emotion or mood on the screen (8*8 LED Matrix)
 
 ![TCS](/images/Communicator.JPG)
 
-#### How it works: 
+### How it works: 
 - When I push "1" on the remote, the first LED will light up to tell my roommate we will be communicated on Channel 1. Each channel will be different messages such as text message ("Hello Zoe!" "How's your day?"), When I push "2" on the remote, the second LED will light up to tell my roommate we will be communicated in Channel 2 which allow me to send her an emoji and she can use the remote to replay.
 
 ![TCS](/images/flow.JPG)
 
-#### Must have:
+### Must have:
 - IR Remote control with the led light
 - 8x8 LED Matrix (Print emoji)
 - Message sent via the LCD Screen.
 
 
-#### Nice to have:
+### Nice to have:
 - Speaker to play the music or melody.
 - Able to switch the melody. 
 - Connect to computer processing to send images.
@@ -73,7 +101,7 @@ Digital Electronics HW&amp;Exercise
 #### Week Two: Able to Print emoji on an 8x8 LED Matrix and program to control by the remote. 
 #### Week Three: Connect the LCD screen to the project and send the message control by the remote.
 
-#### Sources: 
+### Sources: 
 - IR Remote Tutorial:https://www.youtube.com/watch?v=3jeSfsnQOWk&t=1s
 - 8x8 LED Matrix:https://www.hackster.io/SAnwandter1/programming-8x8-led-matrix-23475a
 

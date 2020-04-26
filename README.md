@@ -28,7 +28,7 @@ Digital Electronics HW&amp;Exercise
 ### HOW IT WORKS:
 - The user in the room needs to use the remote control to press the corresponding expression button on the remote. At the same time, the LED matrix in their roommates' room will receive an image the user sends. It allows their roommates across the room will see the user's current mood without contact; they will immediately understand the user's feelings and reply by doing the same thing.
 
-- Video Link: https://vimeo.com/user109537751/review/411977547/a170424925
+- Video Link: https://vimeo.com/411977547
 
 ![TCS](/images/Remote_emoji.GIF)
 
